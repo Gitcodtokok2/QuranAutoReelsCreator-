@@ -1,0 +1,546 @@
+Ton projet devrait être conçu comme un véritable **studio de création et de publication automatisée de vidéos coraniques**, et non comme un simple éditeur vidéo avec quelques modèles prédéfinis.
+
+L'objectif est que l'utilisateur puisse choisir une sourate, un récitateur, une ambiance visuelle, une langue de traduction et une fréquence de publication. Le logiciel s'occupe ensuite de composer les vidéos, de synchroniser les versets avec la récitation, de produire les fichiers et de préparer leur publication.
+
+Il faudrait développer trois grands moteurs complémentaires :
+
+- **Quran Studio** : création et personnalisation des vidéos.
+- **Quran Library** : bibliothèque de récitations, de styles, d'animations, de polices et de médias.
+- **Quran Automation** : génération en série, programmation et gestion des publications.
+
+# **1. Une grande bibliothèque de styles visuels**
+
+Je viserais à terme au moins **100 styles réellement différents**, et non 100 variantes du même modèle avec des couleurs différentes.
+
+Chaque famille doit posséder sa propre composition, son comportement typographique, ses animations, ses transitions et son ambiance.
+
+## **A. Nature et paysages cinématographiques**
+
+[山间清晨，阳光穿透云层洒下金色光芒，茂密森林覆盖的层叠山峦在阳光照耀下呈现出丰富的绿色层次，山间薄雾尚未完全散去-68ai356tq18m6h11-HB-稿定AI社区](https://images.openai.com/static-rsc-4/qQ0gyqfaKMdvfg9JbIj9JFLCxh3Drltcx7ycdY_sdCb3-Lg9xStGY1EzzVL_2rAxCTeZD5cdl488XFZ1XxcsZqCEVbOAf1hUlcthNWdbzorm6cLN0h6S-cnOagN7XhmMNlxbkN-QHyq1JgM5Ral3KbFmcJjfyIAbhIQeSc42cu8?purpose=inline)
+
+**Montagnes et brume**
+
+['Desert Dunes at Sunset' Poster, picture, metal print, paint by Björn | Displate](https://images.openai.com/static-rsc-4/ot9vVU5KkXb-ORN5MnOom3SDWP23VUH7-uHwiAXKRyvsUUVCFTDIFIo0IT7Ywv4UiF93hNUcdKHW6RCGI7nfUzZvF3zoot0XdJhQV6mVb7f-e4YN3reLby8vMUm9n283DovH5Ch7Q3C3NpuWU4SN_LZyazJ2U9Cd2jI1IG3pCqk?purpose=inline)
+
+**Désert doré**
+
+[IPad homescreen screenshot photo – Free Sea Image on Unsplash](https://images.openai.com/static-rsc-4/cYUH81QtupGu9oUEBlwkoPMGFjNKMTLMPR05w9bRaw5izGw8A85jR8VKmDElQwOVKAwbYo5w0vrk1JwUOMnI_LsQhFSDOBFRRU8ktwo6vzLTSTAcopSLN3oa9vP2F6J3N3aBbILC4rqSJGuPYb7UrJBwWcBWxCs6Q8le1eEw-Kk?purpose=inline)
+
+**Océan et vagues**
+
+[Long Path Trees Images | Free Photos, PNG Stickers, Wallpapers & Backgrounds - rawpixel](https://images.openai.com/static-rsc-4/hGnEtMeBAO03ZU0al3moH8ZqSNkMk9pmcEJ6s4YEhl1uzNuMK12W0LV60Yeqgb8A7Zxbg17QyHDwsxNPjUM4boBNRMlKY-FCzYJCcGW0KRiv3cfF6cT5jYrzK-lkBzoXXdVXhGc4FjUVnJcE1bGcZ1jy1Fyg93CteifiVbpTTk4?purpose=inline)
+
+**Forêt lumineuse**
+
+[The Symbolism of Rain. Rain, Rain Go Away? Not Always! | by Darlene Corbett | Medium](https://images.openai.com/static-rsc-4/6liyZYIAIUiwVbIF6ZwGLNG8l9oycJCvbllVKnoQPm-AfVqUd-xpPnRG9xw7sJWsPbNLvNhHDMCE7pPK2x1n4ymQCosG86Dxy90qfhcez-005d-nnDV4d1J3ytULhjIg96Zq-PBq1zKRVMkt5qkmxLHj-zbTsZT7pIMD_Jw_Kvs?purpose=inline)
+
+**Pluie contemplative**
+
+[Photography Gear for Matt Payne](https://images.openai.com/static-rsc-4/NspbQ86b9O2f_UdReqhMRx9Q-ivNXua4PQWlodzZvibtINeQJ2qzyzxf8xB--WeJ2-niN4w1-wo0QQ9vghgRfQRdaY4sql_nmORYHsgHYlPXiucHU_tib81wlcLj6l-7OuL5xYbTRx-PvBRjDWIhZrSerENt8omcprkDnEytmSA?purpose=inline)
+
+**Ciel étoilé**
+
+Cette famille peut également comprendre les cascades, les champs de fleurs, la neige, les rivières, les nuages, les aurores boréales, les paysages sous-marins et les couchers de soleil.
+
+## **B. Architecture et art islamique**
+
+[Muharram Wallpapers — Free HD Images | God Pictures | God Pictures](https://images.openai.com/static-rsc-4/gcglGrjyqO7najG9ejVHEcmPnWcnkySDgZBaIqjVx3ZpgaoIxt8WUzCsKGeW63IqXPP3n0S4fHdDJPSyNrqI1u6RdESyFP5-zaKAYn4EGN8qPJeUocvf2z2xd3jh9xQjP6IC0vKt-7Z56sM1ddXNM-9ms5coubTNdXfeKckVHiQ?purpose=inline)
+
+**Architecture sacrée**
+
+[9 kaabha pics ideas to save today | mecca wallpaper, mecca images, qur'an photography and more](https://images.openai.com/static-rsc-4/FMRRKgGgE9Z103TxtZ2HxVM0C-82b0fc1p5TDoiOeNOXlRUOekdBGnr2S3qQUSdjE3JhqfkdF7ppdj-HuapqldnchlkObDKsRSf9XVESltF7bJK6Bahh6Kocr-7-45K9awwHQ1vp2jsZuh0t0GgLZqADSTe4vnAdT0CTPeyA0eo?purpose=inline)
+
+**La Mecque**
+
+[Deen](https://images.openai.com/static-rsc-4/EJfMHmmVjVXHk0CrYnUoVabOGlJQPjMVxYGoddzKgJTfV5ijtD-pYfEpeIcn41V8AjFFXfPNb5R_jxuo1hMhmHbnfT5lyBaTEs8KXKmxQahuSfPOmgLPMfuZ_Nhnwt89igVsPytoJmvr0qQ91grDMMxX_-a3szzIDkZJKXgtnGM?purpose=inline)
+
+**Médine**
+
+[Islamic ornament vector , persian motiff . 3d ramadan islamic round pattern elements . Geometric circular ornamental arabic symbol vector . Gold background](https://images.openai.com/static-rsc-4/mM9Coz0AR5Aci0_k7-JIDjxbr66UtozvG6dmrXYgY_8z8WS42gzJVfi92cAZRJDlxNWi4EfOXc4tjp68GM7RJCFWzkvw3xBQuTqtMuLQQmDppDNloIFY3JWZQ8D0BjC6c_OH-1cEV1KolNeEuFfje6khu1U9vjYOi83icluayk4VwIZVPD9cwaY9fwDsEr4b?purpose=inline)
+
+**Ornements dorés**
+
+[Quran Leaf - Digital Collections - Free Library](https://images.openai.com/static-rsc-4/pJxaf-fvIcoHtGp-tm9trllBqMK_MM4nkOFlHRtYgIzvp1DSJsm4RsFZlfsEr27c3OFgVmV-6TpbMYkxu7ECsYYs68ZpdDLm7UIr22lJM6buddwluwYaq6twTq5QsbYvH7NV9FqGCH9JiAt6dfpdomz3FWZJFd2DRvusZFXnQuw?purpose=inline)
+
+**Manuscrit ancien**
+
+[Islamic Art in Andalusia - A Journey through Time | Bayt Al Fann](https://images.openai.com/static-rsc-4/fhgWOk7jzwr49whtV9Y1BT7DhQuevltvmRFhp3KWV9dsFmRMigfwGCO3rzj7vszRtNGw-7q7R6mEq8t0a6VD2B6sKGvS7wFf-xDFK4qRPw10iGUJCqMO9hXnCqRuzr1S9GbtpmOluj0zARQmiMCWhPNqO0UvL0JZvW7cg38lwpw?purpose=inline)
+
+**Art andalou**
+
+## **C. Styles modernes et artistiques**
+
+["Alhamdullillah | Zikr |  Black Minimalistic Islamic Decor | Arabic Calligraphy" Poster for Sale by thelustrous | Redbubble](https://images.openai.com/static-rsc-4/67xwbshUYcDdu9cLb7AEFCbIyHNZ_56JG7gsFU2GIRVp-pShPGoB5k6ICA6IzdHaK3nTWogvab7_GBGRIdBuktEhS8ULWr1_44zMg45WgP0Um4qrhRrUkWhGinW2X7fT0Bjo_yVp_loHLWChmmmnK31D2RqHM6h4FuEKBv7_Ts0?purpose=inline)
+
+**Minimalisme noir**
+
+[Islamic Wall Art Printable, Quran Verse “indeed With Hardship Comes Ease”, Minimal Muslim Home Decor Neutral Aesthetic Poster - Etsy](https://images.openai.com/static-rsc-4/fH7ZKht-zS4zmtZc8XXklDFiDj0erLBKXNDo6oWw7UQU6WnbR9RZb9hFzUyb3hY3DhqOTgogaeohNRwXDiqEJ_hDG_vx8UyxP0yVP9acSzkrXG4lhivOODD87ydRQA0d6hd6UMAzBRZWWewn-kxJaypK8GvsfHO-1Ew29xLW8GM?purpose=inline)
+
+**Papier moderne**
+
+[Luxurious Emerald Green And Gold Flowing Fabric Drapes Backgrounds | PNG Free Download - Pikbest](https://images.openai.com/static-rsc-4/2ekDz8hT9HfQBNOJfITYtLUDA9L__33KywW5hizN0vmUymwakmGWMWqnc5Jzdy1bcPXIiaS1wC_GwHR4u6h0Q_GAQJD3jdkTfBtzv2nLwOYHn4hPFx7tKYXTUraGRSzowVatYvSrINL7Ag8i1nmwoD_ro8gkdUmuvJQYRV2O-00?purpose=inline)
+
+**Soie animée**
+
+[Soft Glow Light Effect Background (HD) – Free Download](https://images.openai.com/static-rsc-4/gw5dHi3-UJo1Vi7tbKx33TuOpP8-4chchOSlptZaLxr2ox-UhjaW00nHXs3jEodUMJCDob58wAzGQpJqJ0DRJkHQC4JqyspZWB_6_B54M0sj8I8yEUn5d0rL8blSg55lvEtulVV2yDyaOtTzEnhaBjuWFHviD-Oj388SzLrTnlg?purpose=inline)
+
+**Particules lumineuses**
+
+[Abstract modern vertical background with ribbed fluted glass texture, blue purple gradient light leak, and orange glow. Vector realistic illustration](https://images.openai.com/static-rsc-4/1w41sxNmkDJna2_NOsimSrWSAiUi8ZjpKW6xZfWpSVY2J0eoMctsF3oZaOGipCkdvJYZQjG0sAw7PIapUPoMdXcdKfyOKkgRU1Svu3YzNtRi25cg1ikLjHZPgo2m8zMvVE-qnq0T4Khxauh-nDzzdit1zpRUkPYGcAMaptNDPs5Yu0KlAIG7u_A1iTh5nRAQ?purpose=inline)
+
+**Verre et lumière**
+
+[Minimalist Watercolor Blue and White Snow Mountains Red Sun Mist Illustration](https://images.openai.com/static-rsc-4/8yXyAXLypld8fOissDOZnBtBLK6V0AR4pcopQcwqXzAtftaGhZLAwlLDCkDP1K-ymJAOi6GRlcIPMbbMp4Y2Z9k72lGfHFJiO4XMoeoyV9-WSVNOvslM16d2BlnAUKppbGYWUkwj2jXV8W9j9OWurOeLrlcO5irq0ROaSnIPn7cxOpCNOXGtMSV63KQEMk8W?purpose=inline)
+
+**Aquarelle**
+
+Ces images servent de références d'ambiance. Les véritables modèles devront ensuite intégrer la typographie coranique, les animations et la synchronisation audio.
+
+## **D. Organisation de la bibliothèque complète**
+
+| Famille                          | Nombre de modèles visé |
+| -------------------------------- | ---------------------- |
+| Nature et paysages               | 15                     |
+| Architecture islamique           | 10                     |
+| Minimalisme                      | 10                     |
+| Calligraphie traditionnelle      | 10                     |
+| Cinématographique                | 15                     |
+| Luxe et prestige                 | 10                     |
+| Astronomie et univers            | 10                     |
+| Manuscrits et art ancien         | 10                     |
+| Abstrait et artistique           | 15                     |
+| Illustration et aquarelle        | 10                     |
+| Éducatif et apprentissage        | 10                     |
+| Méditation et contemplation      | 10                     |
+| Ramadan et occasions religieuses | 10                     |
+| Typographie moderne              | 10                     |
+| Animations 2D et 3D              | 15                     |
+| **Total cible**                  | **170**                |
+
+L'utilisateur doit également pouvoir enregistrer ses propres styles et les réutiliser dans ses programmes de publication.
+
+# **2. Le moteur d'animation du texte coranique**
+
+C'est l'un des éléments les plus importants du projet. Il ne faut pas simplement afficher un texte fixe sur une vidéo.
+
+Verset complet
+
+Mot par mot
+
+Karaoké
+
+Bilingue
+
+Défilement
+
+Focus central
+
+Maquettes schématiques de six comportements typographiques possibles.
+
+| Animation             | Comportement                                  |
+| --------------------- | --------------------------------------------- |
+| Verset par verset     | Affichage du verset récité                    |
+| Mot par mot           | Apparition synchronisée avec la voix          |
+| Karaoké               | Mise en couleur du mot récité                 |
+| Ligne par ligne       | Apparition progressive des lignes             |
+| Focus dynamique       | Mise en évidence du verset actif              |
+| Fondu                 | Apparition et disparition douces              |
+| Défilement            | Passage progressif entre les versets          |
+| Page de Mushaf        | Mise en évidence dans une page coranique      |
+| Bilingue              | Arabe et traduction synchronisés              |
+| Trilingue             | Arabe et deux traductions                     |
+| Tajwid                | Couleurs selon une source de tajwid vérifiée  |
+| Éducatif              | Mot arabe et traduction correspondante        |
+| Répétition            | Mode mémorisation                             |
+| Révélation par masque | Apparition du texte sans déformer les lettres |
+
+Tous les effets doivent préserver les lettres arabes, les ligatures, les signes diacritiques et l'intégrité des versets.
+
+# **3. La bibliothèque audio et coranique**
+
+Le logiciel doit disposer d'une base de données structurée, et non d'un simple dossier contenant des MP3.
+
+# **114**
+
+Sourates
+
+# **6 236**
+
+Versets selon la numérotation kufique
+
+# **50+**
+
+Récitateurs visés
+
+## **Récitateurs à intégrer progressivement**
+
+| Récitateur                  | Profil de récitation    |
+| --------------------------- | ----------------------- |
+| Mishary Rashid Alafasy      | Mélodieuse              |
+| Abdul Rahman Al-Sudais      | Solennelle              |
+| Maher Al-Muaiqly            | Douce et fluide         |
+| Abdul Basit Abdus Samad     | Classique et expressive |
+| Saad Al-Ghamdi              | Claire et régulière     |
+| Yasser Al-Dosari            | Intense et expressive   |
+| Islam Sobhi                 | Contemplative           |
+| Raad Al-Kurdi               | Émotionnelle            |
+| Omar Hisham Al-Arabi        | Douce                   |
+| Muhammad Siddiq Al-Minshawi | Traditionnelle          |
+| Mahmoud Khalil Al-Hussary   | Pédagogique             |
+| Nasser Al-Qatami            | Expressive              |
+
+Il faudra aussi intégrer les différentes traditions de récitation, notamment **Hafs et Warsh**, particulièrement pertinent pour le public algérien et maghrébin. Chaque enregistrement devra être associé à la version correcte du texte.
+
+## **Sources de données**
+
+| Source                                                                     | Utilisation                                     |
+| -------------------------------------------------------------------------- | ----------------------------------------------- |
+| [Quran Foundation API](https://api-docs.quran.com/?utm_source=chatgpt.com) | Sourates, traductions, audio et synchronisation |
+| [Tanzil](https://tanzil.net/download/?utm_source=chatgpt.com)              | Texte coranique de référence                    |
+| [MP3 Quran](https://www.mp3quran.net/?utm_source=chatgpt.com)              | Catalogue audio à étudier                       |
+| [QuranEnc](https://quranenc.com/?utm_source=chatgpt.com)                   | Traductions à étudier                           |
+
+Quran Foundation propose déjà des données temporelles pour synchroniser les versets et, pour certains enregistrements, les mots individuellement. Cela évite de devoir reconstruire toute la synchronisation avec une IA.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://api-docs.quran.com\&sz=32)
+
+Quran Foundation Documentation Portal+2
+
+
+
+Les droits de réutilisation des enregistrements doivent toutefois être vérifiés. Quran Foundation prévoit notamment l'intégration de son contenu dans les vidéos sociales sous certaines conditions d'utilisation et d'attribution. Tanzil impose de conserver son texte sans modification.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://api-docs.quran.foundation\&sz=32)
+
+Quran Foundation Documentation Portal+2
+
+
+
+# **4. Un moteur intelligent de composition**
+
+Je ne construirais pas les 170 styles sous forme de vidéos figées. Je développerais un système de couches indépendantes et combinables.
+
+Architecture multicouche d'un modèle vidéo.
+
+Ainsi, un même style peut utiliser plusieurs fonds, plusieurs récitateurs et plusieurs animations sans perdre son identité visuelle.
+
+## **Sélection intelligente des ambiances**
+
+Le moteur pourra proposer des associations à partir de thèmes éditoriaux vérifiés.
+
+| Thème         | Ambiance visuelle suggérée              |
+| ------------- | --------------------------------------- |
+| Patience      | Pluie, montagnes, lumière progressive   |
+| Miséricorde   | Nature, lumière douce, couleurs chaudes |
+| Création      | Univers, océans, paysages               |
+| Gratitude     | Lever du soleil, végétation             |
+| Espoir        | Horizon, ciel lumineux                  |
+| Invocation    | Nuit, sobriété, lumière tamisée         |
+| Contemplation | Eau, silence visuel, mouvements lents   |
+| Apprentissage | Fond neutre, texte agrandi              |
+
+Ces associations doivent rester des choix artistiques, et non des interprétations religieuses générées automatiquement sans vérification.
+
+# **5. Le générateur de vidéos en quelques clics**
+
+Voici une simulation interactive du parcours de création que je prévoirais dans ton logiciel.
+
+## **Quran Studio**
+
+Simulation
+
+SourateAl-Ikhlas
+
+RécitateurMishary Alafasy
+
+Style visuelDésert doré
+
+AnimationMot par mot
+
+TraductionFrançais
+
+Format9:16
+
+[Dubai Creek Harbour - Shoot Location     | ShootEmpire](https://images.openai.com/static-rsc-4/k2rB4q6L7WbhiCWK7-ZRqeCVcV0vkTQ2mcmDChI9i0XelJMWtqlHAcz4T5SF--JvIAOTLjcQztRR2T5o4nWii48rn14sW6Vpn0PURjERUQia6_uz-nQ-zN4zfyOAZ5iLPh1y00twD44zA85DH3UTt1CDM8wpJwHDmFFuds-E2zk?purpose=inline)
+
+Configuration du projet
+
+**Al-Ikhlas**
+
+Mishary Alafasy
+
+Désert doré · Mot par mot
+
+Français · 9:16
+
+Export MP4 prévu Copier la configuration
+
+Dans la version complète, il faudra ajouter un aperçu vidéo en temps réel, une timeline, les réglages audio, la sélection des versets, les transitions, les calques et l'export par lots.
+
+# **6. Génération automatique et publication quotidienne**
+
+C'est cette fonctionnalité qui pourrait réellement différencier ton logiciel des autres éditeurs.
+
+L'utilisateur configure une campagne une seule fois, puis le système prépare régulièrement de nouveaux contenus selon ses préférences.
+
+## **&#x20;Configuration d'une campagne**
+
+Vidéos par jour
+
+**3**
+
+Durée de la campagne
+
+**30 jours**
+
+Créneaux de publication souhaités
+
+Matin
+
+Matin et soir
+
+Répartis sur la journée
+
+Horaires optimisés selon les statistiques disponibles
+
+Varier automatiquement les styles visuels
+
+Alterner les récitateurs
+
+Éviter les répétitions de contenus
+
+Vidéos à préparer
+
+# **90**
+
+Publications souhaitées par semaine
+
+# **21**
+
+Copier les paramètres de campagneSimulation de planification, sans connexion réelle à TikTok.
+
+## **Cycle de fonctionnement**
+
+**Sélection du contenu**
+
+Sourate, versets, récitateur et thème
+
+**Composition intelligente**
+
+Choix du style et des éléments visuels
+
+**Synchronisation**
+
+Alignement du texte avec la récitation
+
+**Contrôle qualité**
+
+Intégrité du texte, audio, lisibilité et droits
+
+**Rendu vidéo**
+
+Génération et stockage du fichier MP4
+
+**Validation et programmation**
+
+Aperçu, autorisation et calendrier
+
+**Publication**
+
+Envoi via une intégration autorisée
+
+**Analyse des performances**
+
+Statistiques accessibles et amélioration des choix
+
+## **Attention aux conditions de TikTok**
+
+TikTok propose une API officielle de publication, la **Content Posting API**, mais impose plusieurs conditions : autorisation du compte, aperçu des contenus, contrôle par l'utilisateur, consentement explicite et audit de l'application pour permettre les publications publiques.
+
+Une autorisation générale donnée une seule fois ne garantit donc pas que la publication entièrement autonome de nouvelles vidéos soit acceptée. Je prévoirais une génération automatique suivie d'une validation des vidéos à programmer, en attendant l'approbation de l'intégration.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://developers.tiktok.com\&sz=32)
+
+TikTok for Developers+1
+
+
+
+L'architecture doit également permettre d'ajouter Instagram Reels, YouTube Shorts et Facebook, avec leurs intégrations respectives.
+
+# **7. Toutes les interfaces du logiciel**
+
+| Interface                  | Fonction principale             |
+| -------------------------- | ------------------------------- |
+| Tableau de bord            | Vue générale de l'activité      |
+| Studio rapide              | Création en quelques clics      |
+| Studio avancé              | Éditeur vidéo multicouche       |
+| Bibliothèque coranique     | Sourates et versets             |
+| Bibliothèque audio         | Récitateurs et enregistrements  |
+| Bibliothèque de styles     | Modèles personnalisables        |
+| Bibliothèque multimédia    | Vidéos, images et textures      |
+| Bibliothèque d'animations  | Effets et transitions           |
+| Bibliothèque typographique | Polices arabes et traductions   |
+| Créateur de modèles        | Fabrication de nouveaux styles  |
+| Génération en masse        | Production de séries de vidéos  |
+| Automatisation             | Règles et campagnes             |
+| Calendrier                 | Publications programmées        |
+| Comptes connectés          | Gestion des réseaux sociaux     |
+| Historique                 | Vidéos générées et publiées     |
+| Statistiques               | Performances des contenus       |
+| Centre de vérification     | Contrôle du texte et de l'audio |
+| Paramètres                 | Préférences et stockage         |
+
+# **8. Intelligence artificielle intégrée**
+
+L'IA ne doit pas inventer les versets ni modifier la récitation. Elle doit intervenir principalement dans la production artistique et l'organisation.
+
+| Fonction IA                | Utilité                                     |
+| -------------------------- | ------------------------------------------- |
+| Directeur artistique       | Choisir une composition cohérente           |
+| Générateur de fonds        | Créer des paysages originaux                |
+| Générateur d'animations    | Proposer des mouvements visuels             |
+| Composition automatique    | Adapter le texte à l'espace disponible      |
+| Alignement audio           | Assister la synchronisation des récitations |
+| Détection de répétitions   | Éviter les vidéos trop similaires           |
+| Générateur de descriptions | Préparer les légendes et hashtags           |
+| Optimisation du calendrier | Analyser les performances disponibles       |
+| Contrôle visuel            | Détecter les textes coupés ou illisibles    |
+| Assistant conversationnel  | Piloter le logiciel en langage naturel      |
+
+Par exemple, l'utilisateur pourra simplement demander :
+
+> Prépare-moi 30 vidéos pour le mois prochain, avec les récitations de Mishary Alafasy et Islam Sobhi, des paysages cinématographiques différents, une traduction française et une animation mot par mot. Évite les doublons.
+
+Le logiciel transforme cette instruction en campagne de production.
+
+# **9. Architecture technique recommandée**
+
+| Composant                  | Technologie proposée            |
+| -------------------------- | ------------------------------- |
+| Interface                  | React + Next.js                 |
+| Prévisualisation           | Canvas + WebGL                  |
+| Animation                  | Remotion + GSAP                 |
+| Rendu vidéo                | FFmpeg                          |
+| Traitement audio           | Python                          |
+| Serveur                    | Node.js / FastAPI               |
+| Base de données            | PostgreSQL                      |
+| Tâches automatiques        | Redis + BullMQ                  |
+| Stockage multimédia        | S3 compatible                   |
+| Connexion des comptes      | OAuth 2.0                       |
+| Publication                | API officielles des plateformes |
+| Version Windows éventuelle | Tauri                           |
+
+Je privilégierais une application web, éventuellement accompagnée d'un logiciel Windows, afin que les campagnes puissent continuer à fonctionner côté serveur même lorsque l'ordinateur de l'utilisateur est éteint.
+
+# **10. Objectif de couverture de la version complète**
+
+Modèles vidéo
+
+170+
+
+Arrière-plans vidéo
+
+500+
+
+Arrière-plans images
+
+1000+
+
+Animations typographiques
+
+40+
+
+Transitions
+
+50+
+
+Polices compatibles
+
+30+
+
+Effets d'ambiance
+
+60+
+
+Compositions de texte
+
+40+
+
+Récitateurs
+
+50+
+
+Objectifs proposés pour le catalogue final, et non ressources déjà collectées.
+
+# **11. Étudier les logiciels concurrents**
+
+Il existe déjà plusieurs outils spécialisés que nous pouvons prendre comme références fonctionnelles.
+
+[Introducing Automatic Recitation and Memorization on Tarteel](https://images.openai.com/static-rsc-4/1pRYIPljfQscMrOz6X_dx9EWIqaravgETHVYFBWFVUNL-v-hxe_HVshQSSQUJ-B5YJ1JEivyu36mtJuWuiLBEMTDbQgmjiSmWwVO7N0tk5bhSi3A8-ZCZISgq7QYnCkE3OePRLXezPJgpxwBgnVW41slI2qn_GSJIf-IKyvvdvg?purpose=inline)
+
+[**Tarteel Video**](https://tarteel.video/?utm_source=chatgpt.com)
+
+Reconnaissance des versets, sous-titres synchronisés, modèles et partage multiplateforme.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://tarteel.video\&sz=32)
+
+Tarteel Video
+
+
+
+[Quran Caption | AI-Powered Quranic Video Creation](https://images.openai.com/static-rsc-4/OntaVnFzS5OlODe4Ar_bSYjU-BQfrqdDvU6_zIafnGF--ZiL43uEorcVQI0Ey1edLej-yHOdUJUAEHQsYeotSanO7eeB-9rEyaeNrLXPjWNVFrmQxGx_Py7v3_qbyWnVURNdOe59kDBJlC8THPrmYwnWCRcd1XjYbM85vIBitCM?purpose=inline)
+
+[**Hasanah Studio**](https://hasanah.app/studio?utm_source=chatgpt.com)
+
+Éditeur coranique avec synchronisation et correction temporelle des versets.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://hasanah.app\&sz=32)
+
+Hasanah
+
+
+
+[Sakina : Coran en francais - Reference App | MWM](https://images.openai.com/static-rsc-4/B5GUt2ZO_zxrm5mnehk4AUs11wkCkqNWy6sZ0haOdXAEqMlg30LjS4eHbuSxoA_5KVnl8cF2ApH9JLg1bzPLAKmwZ-Mc1mw0eu2tlA7aI1YwpFzIjWI45tgDchmPn6_2mzaodliNX5Xv-swMRCW_IMGVDU7hgexvHMmqSrbGJ7g?purpose=inline)
+
+[**Sakina**](https://sakina.web.app/?utm_source=chatgpt.com)
+
+Création simplifiée de vidéos coraniques à partir de photographies et de récitations.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sakina.web.app\&sz=32)
+
+Sakina
+
+
+
+[Quran Video Maker — Free Online Quran Video Generator](https://images.openai.com/static-rsc-4/sPqg00ugM14bFCOEXpStTfkfleUYPX-Yi9DinJL_PPrtqRRPNNyRcLLqYLeCWprCQOW_glK8Vw5En9guGZQJuKcJ31stgfFGu2ZWItrNkCqHRwRwnGjaPcYm4YA9s7xItUjNpNamF28C25D56xPxVGkFhX4kAOEiqM3Cmy_qsOY?purpose=inline)
+
+[**Quran MP4**](https://quranmp4.com/?utm_source=chatgpt.com)
+
+Synchronisation assistée, modèles et personnalisation des animations.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://quranmp4.com\&sz=32)
+
+Quran MP4
+
+
+
+# **12. Ordre de développement**
+
+| Phase | Objectif                                         |
+| ----- | ------------------------------------------------ |
+| 1     | Recherche et classification des styles existants |
+| 2     | Construction de la base coranique et audio       |
+| 3     | Développement du moteur de rendu                 |
+| 4     | Développement du moteur de synchronisation       |
+| 5     | Création des premiers modèles professionnels     |
+| 6     | Construction du studio de personnalisation       |
+| 7     | Extension massive des bibliothèques              |
+| 8     | Génération intelligente en série                 |
+| 9     | Connexion aux réseaux sociaux                    |
+| 10    | Automatisation et analyse des performances       |
+
+**La priorité, selon moi, est de construire un moteur de création modulaire avant de développer l'automatisation.** Autrement, on risque d'obtenir un logiciel capable de publier énormément de vidéos, mais dont toutes les vidéos se ressemblent.
+
+Il faut viser l'équivalent d'un **CapCut spécialisé dans le Coran, combiné à Canva pour la diversité des modèles et à un gestionnaire de publications pour l'automatisation**.
+
+À ce stade, il s'agit de la conception fonctionnelle du projet. Les bibliothèques, le moteur vidéo et les intégrations de publication ne sont pas encore développés.

@@ -1,0 +1,6 @@
+{
+  "name": "NoorReel",
+  "description": "Studio de création de vidéos verticales du Coran avec texte synchronisé automatique, récitation audio et arrière-plans cinématiques pour TikTok et Reels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
